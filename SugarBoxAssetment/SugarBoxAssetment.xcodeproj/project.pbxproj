@@ -1,0 +1,815 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DBB0E5E2B1FAB7900E15AF8 /* SugarBoxAssetmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBB0E5D2B1FAB7900E15AF8 /* SugarBoxAssetmentApp.swift */; };
+		5DBB0E602B1FAB7900E15AF8 /* MoviesListingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBB0E5F2B1FAB7900E15AF8 /* MoviesListingView.swift */; };
+		5DBB0E622B1FAB7A00E15AF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DBB0E612B1FAB7A00E15AF8 /* Assets.xcassets */; };
+		5DBB0E652B1FAB7A00E15AF8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DBB0E642B1FAB7A00E15AF8 /* Preview Assets.xcassets */; };
+		5DBB0E6F2B1FAB7A00E15AF8 /* SugarBoxAssetmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBB0E6E2B1FAB7A00E15AF8 /* SugarBoxAssetmentTests.swift */; };
+		5DBB0E792B1FAB7A00E15AF8 /* SugarBoxAssetmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBB0E782B1FAB7A00E15AF8 /* SugarBoxAssetmentUITests.swift */; };
+		5DBB0E7B2B1FAB7A00E15AF8 /* SugarBoxAssetmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBB0E7A2B1FAB7A00E15AF8 /* SugarBoxAssetmentUITestsLaunchTests.swift */; };
+		5DBB0E882B1FBF0100E15AF8 /* SnapCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBB0E872B1FBF0100E15AF8 /* SnapCarouselView.swift */; };
+		5DBB0E8A2B205C6D00E15AF8 /* Carousel2DView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBB0E892B205C6D00E15AF8 /* Carousel2DView.swift */; };
+		5DBB0E8C2B20700F00E15AF8 /* DefaultTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBB0E8B2B20700F00E15AF8 /* DefaultTabView.swift */; };
+		5DBB0E9D2B208FB400E15AF8 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBB0E962B208FB400E15AF8 /* NetworkManager.swift */; };
+		5DBB0E9E2B208FB400E15AF8 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBB0E982B208FB400E15AF8 /* Endpoints.swift */; };
+		5DBB0E9F2B208FB400E15AF8 /* MoviesListingEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBB0E992B208FB400E15AF8 /* MoviesListingEndPoint.swift */; };
+		5DBB0EA12B208FB400E15AF8 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBB0E9C2B208FB400E15AF8 /* Reachability.swift */; };
+		5DBB0EAC2B20953C00E15AF8 /* MovieListingApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBB0EAB2B20953C00E15AF8 /* MovieListingApiService.swift */; };
+		5DBB0EAE2B2095C200E15AF8 /* MoviesListingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBB0EAD2B2095C200E15AF8 /* MoviesListingModel.swift */; };
+		5DBB0EB02B209C7900E15AF8 /* MovieListingRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBB0EAF2B209C7900E15AF8 /* MovieListingRepository.swift */; };
+		5DBB0EB22B209D4E00E15AF8 /* MovieListingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBB0EB12B209D4E00E15AF8 /* MovieListingViewModel.swift */; };
+		5DBB0EB42B20B35100E15AF8 /* URL+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBB0EB32B20B35100E15AF8 /* URL+Identifiable.swift */; };
+		5DBB0EB72B20BA7500E15AF8 /* CustomNavTitleBarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBB0EB62B20BA7500E15AF8 /* CustomNavTitleBarModifier.swift */; };
+		5DBB0EB92B20BAE400E15AF8 /* View+Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBB0EB82B20BAE400E15AF8 /* View+Modifiers.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DBB0E6B2B1FAB7A00E15AF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DBB0E522B1FAB7900E15AF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DBB0E592B1FAB7900E15AF8;
+			remoteInfo = SugarBoxAssetment;
+		};
+		5DBB0E752B1FAB7A00E15AF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DBB0E522B1FAB7900E15AF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DBB0E592B1FAB7900E15AF8;
+			remoteInfo = SugarBoxAssetment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5DBB0E5A2B1FAB7900E15AF8 /* SugarBoxAssetment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SugarBoxAssetment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DBB0E5D2B1FAB7900E15AF8 /* SugarBoxAssetmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugarBoxAssetmentApp.swift; sourceTree = "<group>"; };
+		5DBB0E5F2B1FAB7900E15AF8 /* MoviesListingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesListingView.swift; sourceTree = "<group>"; };
+		5DBB0E612B1FAB7A00E15AF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DBB0E642B1FAB7A00E15AF8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5DBB0E6A2B1FAB7A00E15AF8 /* SugarBoxAssetmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SugarBoxAssetmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DBB0E6E2B1FAB7A00E15AF8 /* SugarBoxAssetmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugarBoxAssetmentTests.swift; sourceTree = "<group>"; };
+		5DBB0E742B1FAB7A00E15AF8 /* SugarBoxAssetmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SugarBoxAssetmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DBB0E782B1FAB7A00E15AF8 /* SugarBoxAssetmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugarBoxAssetmentUITests.swift; sourceTree = "<group>"; };
+		5DBB0E7A2B1FAB7A00E15AF8 /* SugarBoxAssetmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugarBoxAssetmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5DBB0E872B1FBF0100E15AF8 /* SnapCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapCarouselView.swift; sourceTree = "<group>"; };
+		5DBB0E892B205C6D00E15AF8 /* Carousel2DView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel2DView.swift; sourceTree = "<group>"; };
+		5DBB0E8B2B20700F00E15AF8 /* DefaultTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTabView.swift; sourceTree = "<group>"; };
+		5DBB0E962B208FB400E15AF8 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		5DBB0E982B208FB400E15AF8 /* Endpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		5DBB0E992B208FB400E15AF8 /* MoviesListingEndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesListingEndPoint.swift; sourceTree = "<group>"; };
+		5DBB0E9C2B208FB400E15AF8 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		5DBB0EAB2B20953C00E15AF8 /* MovieListingApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListingApiService.swift; sourceTree = "<group>"; };
+		5DBB0EAD2B2095C200E15AF8 /* MoviesListingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesListingModel.swift; sourceTree = "<group>"; };
+		5DBB0EAF2B209C7900E15AF8 /* MovieListingRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListingRepository.swift; sourceTree = "<group>"; };
+		5DBB0EB12B209D4E00E15AF8 /* MovieListingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListingViewModel.swift; sourceTree = "<group>"; };
+		5DBB0EB32B20B35100E15AF8 /* URL+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Identifiable.swift"; sourceTree = "<group>"; };
+		5DBB0EB62B20BA7500E15AF8 /* CustomNavTitleBarModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavTitleBarModifier.swift; sourceTree = "<group>"; };
+		5DBB0EB82B20BAE400E15AF8 /* View+Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Modifiers.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DBB0E572B1FAB7900E15AF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DBB0E672B1FAB7A00E15AF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DBB0E712B1FAB7A00E15AF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DBB0E512B1FAB7900E15AF8 = {
+			isa = PBXGroup;
+			children = (
+				5DBB0E5C2B1FAB7900E15AF8 /* SugarBoxAssetment */,
+				5DBB0E6D2B1FAB7A00E15AF8 /* SugarBoxAssetmentTests */,
+				5DBB0E772B1FAB7A00E15AF8 /* SugarBoxAssetmentUITests */,
+				5DBB0E5B2B1FAB7900E15AF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DBB0E5B2B1FAB7900E15AF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DBB0E5A2B1FAB7900E15AF8 /* SugarBoxAssetment.app */,
+				5DBB0E6A2B1FAB7A00E15AF8 /* SugarBoxAssetmentTests.xctest */,
+				5DBB0E742B1FAB7A00E15AF8 /* SugarBoxAssetmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DBB0E5C2B1FAB7900E15AF8 /* SugarBoxAssetment */ = {
+			isa = PBXGroup;
+			children = (
+				5DBB0EA42B208FFF00E15AF8 /* MainApp */,
+				5DBB0EA22B208FCE00E15AF8 /* Resources */,
+				5DBB0E8D2B208E9600E15AF8 /* Sources */,
+			);
+			path = SugarBoxAssetment;
+			sourceTree = "<group>";
+		};
+		5DBB0E632B1FAB7A00E15AF8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5DBB0E642B1FAB7A00E15AF8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5DBB0E6D2B1FAB7A00E15AF8 /* SugarBoxAssetmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				5DBB0E6E2B1FAB7A00E15AF8 /* SugarBoxAssetmentTests.swift */,
+			);
+			path = SugarBoxAssetmentTests;
+			sourceTree = "<group>";
+		};
+		5DBB0E772B1FAB7A00E15AF8 /* SugarBoxAssetmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5DBB0E782B1FAB7A00E15AF8 /* SugarBoxAssetmentUITests.swift */,
+				5DBB0E7A2B1FAB7A00E15AF8 /* SugarBoxAssetmentUITestsLaunchTests.swift */,
+			);
+			path = SugarBoxAssetmentUITests;
+			sourceTree = "<group>";
+		};
+		5DBB0E8D2B208E9600E15AF8 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5DBB0E932B208F8300E15AF8 /* Managers */,
+				5DBB0E8E2B208EE400E15AF8 /* Utils */,
+				5DBB0E912B208F3800E15AF8 /* Modules */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		5DBB0E8E2B208EE400E15AF8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5DBB0E902B208F2400E15AF8 /* CustomFiles */,
+				5DBB0E8F2B208F0A00E15AF8 /* Extensions */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		5DBB0E8F2B208F0A00E15AF8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5DBB0EB32B20B35100E15AF8 /* URL+Identifiable.swift */,
+				5DBB0EB82B20BAE400E15AF8 /* View+Modifiers.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5DBB0E902B208F2400E15AF8 /* CustomFiles */ = {
+			isa = PBXGroup;
+			children = (
+				5DBB0EB52B20BA5B00E15AF8 /* NavigationBar */,
+				5DBB0EAA2B20907000E15AF8 /* Carousels */,
+			);
+			path = CustomFiles;
+			sourceTree = "<group>";
+		};
+		5DBB0E912B208F3800E15AF8 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				5DBB0E922B208F4100E15AF8 /* MovieListing */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		5DBB0E922B208F4100E15AF8 /* MovieListing */ = {
+			isa = PBXGroup;
+			children = (
+				5DBB0EA92B20904F00E15AF8 /* Model */,
+				5DBB0EA72B20904100E15AF8 /* Service */,
+				5DBB0EA82B20904900E15AF8 /* Respository */,
+				5DBB0EA62B20903700E15AF8 /* ViewModel */,
+				5DBB0EA52B20901E00E15AF8 /* View */,
+			);
+			path = MovieListing;
+			sourceTree = "<group>";
+		};
+		5DBB0E932B208F8300E15AF8 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				5DBB0E942B208FB400E15AF8 /* Network */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		5DBB0E942B208FB400E15AF8 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5DBB0E952B208FB400E15AF8 /* NetworkManager */,
+				5DBB0E972B208FB400E15AF8 /* EndPoints */,
+				5DBB0E9B2B208FB400E15AF8 /* Reachability */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		5DBB0E952B208FB400E15AF8 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				5DBB0E962B208FB400E15AF8 /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		5DBB0E972B208FB400E15AF8 /* EndPoints */ = {
+			isa = PBXGroup;
+			children = (
+				5DBB0E982B208FB400E15AF8 /* Endpoints.swift */,
+				5DBB0E992B208FB400E15AF8 /* MoviesListingEndPoint.swift */,
+			);
+			path = EndPoints;
+			sourceTree = "<group>";
+		};
+		5DBB0E9B2B208FB400E15AF8 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				5DBB0E9C2B208FB400E15AF8 /* Reachability.swift */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		5DBB0EA22B208FCE00E15AF8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5DBB0E632B1FAB7A00E15AF8 /* Preview Content */,
+				5DBB0EA32B208FDA00E15AF8 /* Assets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5DBB0EA32B208FDA00E15AF8 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5DBB0E612B1FAB7A00E15AF8 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		5DBB0EA42B208FFF00E15AF8 /* MainApp */ = {
+			isa = PBXGroup;
+			children = (
+				5DBB0E5D2B1FAB7900E15AF8 /* SugarBoxAssetmentApp.swift */,
+			);
+			path = MainApp;
+			sourceTree = "<group>";
+		};
+		5DBB0EA52B20901E00E15AF8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5DBB0E5F2B1FAB7900E15AF8 /* MoviesListingView.swift */,
+				5DBB0E8B2B20700F00E15AF8 /* DefaultTabView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5DBB0EA62B20903700E15AF8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5DBB0EB12B209D4E00E15AF8 /* MovieListingViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5DBB0EA72B20904100E15AF8 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				5DBB0EAB2B20953C00E15AF8 /* MovieListingApiService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		5DBB0EA82B20904900E15AF8 /* Respository */ = {
+			isa = PBXGroup;
+			children = (
+				5DBB0EAF2B209C7900E15AF8 /* MovieListingRepository.swift */,
+			);
+			path = Respository;
+			sourceTree = "<group>";
+		};
+		5DBB0EA92B20904F00E15AF8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5DBB0EAD2B2095C200E15AF8 /* MoviesListingModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5DBB0EAA2B20907000E15AF8 /* Carousels */ = {
+			isa = PBXGroup;
+			children = (
+				5DBB0E872B1FBF0100E15AF8 /* SnapCarouselView.swift */,
+				5DBB0E892B205C6D00E15AF8 /* Carousel2DView.swift */,
+			);
+			path = Carousels;
+			sourceTree = "<group>";
+		};
+		5DBB0EB52B20BA5B00E15AF8 /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				5DBB0EB62B20BA7500E15AF8 /* CustomNavTitleBarModifier.swift */,
+			);
+			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DBB0E592B1FAB7900E15AF8 /* SugarBoxAssetment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DBB0E7E2B1FAB7A00E15AF8 /* Build configuration list for PBXNativeTarget "SugarBoxAssetment" */;
+			buildPhases = (
+				5DBB0E562B1FAB7900E15AF8 /* Sources */,
+				5DBB0E572B1FAB7900E15AF8 /* Frameworks */,
+				5DBB0E582B1FAB7900E15AF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SugarBoxAssetment;
+			productName = SugarBoxAssetment;
+			productReference = 5DBB0E5A2B1FAB7900E15AF8 /* SugarBoxAssetment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DBB0E692B1FAB7A00E15AF8 /* SugarBoxAssetmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DBB0E812B1FAB7A00E15AF8 /* Build configuration list for PBXNativeTarget "SugarBoxAssetmentTests" */;
+			buildPhases = (
+				5DBB0E662B1FAB7A00E15AF8 /* Sources */,
+				5DBB0E672B1FAB7A00E15AF8 /* Frameworks */,
+				5DBB0E682B1FAB7A00E15AF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DBB0E6C2B1FAB7A00E15AF8 /* PBXTargetDependency */,
+			);
+			name = SugarBoxAssetmentTests;
+			productName = SugarBoxAssetmentTests;
+			productReference = 5DBB0E6A2B1FAB7A00E15AF8 /* SugarBoxAssetmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5DBB0E732B1FAB7A00E15AF8 /* SugarBoxAssetmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DBB0E842B1FAB7A00E15AF8 /* Build configuration list for PBXNativeTarget "SugarBoxAssetmentUITests" */;
+			buildPhases = (
+				5DBB0E702B1FAB7A00E15AF8 /* Sources */,
+				5DBB0E712B1FAB7A00E15AF8 /* Frameworks */,
+				5DBB0E722B1FAB7A00E15AF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DBB0E762B1FAB7A00E15AF8 /* PBXTargetDependency */,
+			);
+			name = SugarBoxAssetmentUITests;
+			productName = SugarBoxAssetmentUITests;
+			productReference = 5DBB0E742B1FAB7A00E15AF8 /* SugarBoxAssetmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DBB0E522B1FAB7900E15AF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					5DBB0E592B1FAB7900E15AF8 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					5DBB0E692B1FAB7A00E15AF8 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 5DBB0E592B1FAB7900E15AF8;
+					};
+					5DBB0E732B1FAB7A00E15AF8 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 5DBB0E592B1FAB7900E15AF8;
+					};
+				};
+			};
+			buildConfigurationList = 5DBB0E552B1FAB7900E15AF8 /* Build configuration list for PBXProject "SugarBoxAssetment" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DBB0E512B1FAB7900E15AF8;
+			productRefGroup = 5DBB0E5B2B1FAB7900E15AF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DBB0E592B1FAB7900E15AF8 /* SugarBoxAssetment */,
+				5DBB0E692B1FAB7A00E15AF8 /* SugarBoxAssetmentTests */,
+				5DBB0E732B1FAB7A00E15AF8 /* SugarBoxAssetmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DBB0E582B1FAB7900E15AF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DBB0E652B1FAB7A00E15AF8 /* Preview Assets.xcassets in Resources */,
+				5DBB0E622B1FAB7A00E15AF8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DBB0E682B1FAB7A00E15AF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DBB0E722B1FAB7A00E15AF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DBB0E562B1FAB7900E15AF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DBB0E9D2B208FB400E15AF8 /* NetworkManager.swift in Sources */,
+				5DBB0E882B1FBF0100E15AF8 /* SnapCarouselView.swift in Sources */,
+				5DBB0E602B1FAB7900E15AF8 /* MoviesListingView.swift in Sources */,
+				5DBB0EB22B209D4E00E15AF8 /* MovieListingViewModel.swift in Sources */,
+				5DBB0E9E2B208FB400E15AF8 /* Endpoints.swift in Sources */,
+				5DBB0E8A2B205C6D00E15AF8 /* Carousel2DView.swift in Sources */,
+				5DBB0EB72B20BA7500E15AF8 /* CustomNavTitleBarModifier.swift in Sources */,
+				5DBB0EB92B20BAE400E15AF8 /* View+Modifiers.swift in Sources */,
+				5DBB0E9F2B208FB400E15AF8 /* MoviesListingEndPoint.swift in Sources */,
+				5DBB0E8C2B20700F00E15AF8 /* DefaultTabView.swift in Sources */,
+				5DBB0EAE2B2095C200E15AF8 /* MoviesListingModel.swift in Sources */,
+				5DBB0EA12B208FB400E15AF8 /* Reachability.swift in Sources */,
+				5DBB0EB02B209C7900E15AF8 /* MovieListingRepository.swift in Sources */,
+				5DBB0EB42B20B35100E15AF8 /* URL+Identifiable.swift in Sources */,
+				5DBB0EAC2B20953C00E15AF8 /* MovieListingApiService.swift in Sources */,
+				5DBB0E5E2B1FAB7900E15AF8 /* SugarBoxAssetmentApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DBB0E662B1FAB7A00E15AF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DBB0E6F2B1FAB7A00E15AF8 /* SugarBoxAssetmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DBB0E702B1FAB7A00E15AF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DBB0E7B2B1FAB7A00E15AF8 /* SugarBoxAssetmentUITestsLaunchTests.swift in Sources */,
+				5DBB0E792B1FAB7A00E15AF8 /* SugarBoxAssetmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DBB0E6C2B1FAB7A00E15AF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DBB0E592B1FAB7900E15AF8 /* SugarBoxAssetment */;
+			targetProxy = 5DBB0E6B2B1FAB7A00E15AF8 /* PBXContainerItemProxy */;
+		};
+		5DBB0E762B1FAB7A00E15AF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DBB0E592B1FAB7900E15AF8 /* SugarBoxAssetment */;
+			targetProxy = 5DBB0E752B1FAB7A00E15AF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5DBB0E7C2B1FAB7A00E15AF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5DBB0E7D2B1FAB7A00E15AF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DBB0E7F2B1FAB7A00E15AF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SugarBoxAssetment/Resources/Preview Content\"";
+				DEVELOPMENT_TEAM = SA292C878B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vikas.SugarBoxAssetment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DBB0E802B1FAB7A00E15AF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SugarBoxAssetment/Resources/Preview Content\"";
+				DEVELOPMENT_TEAM = SA292C878B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vikas.SugarBoxAssetment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5DBB0E822B1FAB7A00E15AF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SA292C878B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vikas.SugarBoxAssetmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SugarBoxAssetment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SugarBoxAssetment";
+			};
+			name = Debug;
+		};
+		5DBB0E832B1FAB7A00E15AF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SA292C878B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vikas.SugarBoxAssetmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SugarBoxAssetment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SugarBoxAssetment";
+			};
+			name = Release;
+		};
+		5DBB0E852B1FAB7A00E15AF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SA292C878B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vikas.SugarBoxAssetmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SugarBoxAssetment;
+			};
+			name = Debug;
+		};
+		5DBB0E862B1FAB7A00E15AF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SA292C878B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vikas.SugarBoxAssetmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SugarBoxAssetment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DBB0E552B1FAB7900E15AF8 /* Build configuration list for PBXProject "SugarBoxAssetment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DBB0E7C2B1FAB7A00E15AF8 /* Debug */,
+				5DBB0E7D2B1FAB7A00E15AF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DBB0E7E2B1FAB7A00E15AF8 /* Build configuration list for PBXNativeTarget "SugarBoxAssetment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DBB0E7F2B1FAB7A00E15AF8 /* Debug */,
+				5DBB0E802B1FAB7A00E15AF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DBB0E812B1FAB7A00E15AF8 /* Build configuration list for PBXNativeTarget "SugarBoxAssetmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DBB0E822B1FAB7A00E15AF8 /* Debug */,
+				5DBB0E832B1FAB7A00E15AF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DBB0E842B1FAB7A00E15AF8 /* Build configuration list for PBXNativeTarget "SugarBoxAssetmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DBB0E852B1FAB7A00E15AF8 /* Debug */,
+				5DBB0E862B1FAB7A00E15AF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DBB0E522B1FAB7900E15AF8 /* Project object */;
+}
